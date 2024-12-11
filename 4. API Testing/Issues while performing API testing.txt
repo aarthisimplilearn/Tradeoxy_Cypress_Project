@@ -1,0 +1,8 @@
+Issues IN Postman API
+
+1. Couldn't find TradeOxy's API
+
+2. When trying to POST request for signin functionality by giving values for email and password, I am getting error "405 Method not allowed".Also asked me to change the method from POST to GET. If I do so, it works fine but expected page is not coming.
+
+3. Put and Patch functions are not working properly.
+	Eg: When try to update the booking details using Put and partial update using patch, I am getting error like "403 Forbidden"

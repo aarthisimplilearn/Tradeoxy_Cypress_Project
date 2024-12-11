@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+HTTP Request with 10 users and 10 loops,100,121,77,304,40.90,0.000%,24.40215,2005.24,2.81,84147.0
+TOTAL,100,121,77,304,40.90,0.000%,24.40215,2005.24,2.81,84147.0

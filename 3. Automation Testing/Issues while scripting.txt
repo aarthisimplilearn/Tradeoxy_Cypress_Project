@@ -1,0 +1,19 @@
+Challenges while scripting
+
+1. While running in cypress, complete page of the website is not visible. So it needs to change the viewport size from default(1000px*660px) to width:1280,height:720
+
+2. When I try to sign in using google option during test execution, I could see the error message like "We're sorry, but you do not have access to this page." on the next page of the google option. But while accessing normally I could find our  gmail account to sign in.
+
+
+3. When I try to enter the username and password and click on sign in button by accessing email option in sign in page, I am getting pop up with error message like wrong email or password even though they are vaild email id and password
+
+4. Email to reset a password is not receiving after entering the email id and click on reset password button  
+
+5. Element is present in the dom but when trying to locate the element using valid locators, i am getting error like Element not found
+     eg: cy.get('a[href="/?scanner=crypto/"]')
+         cy.get('a[href="/?scanner=stock/"]')
+         cy.get('a[href="/?scanner=forex/"]')
+
+   Above mentioned elemnts are present but couldn't find during execution
+
+6. Logout function also not working properly during execution
